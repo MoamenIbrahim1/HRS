@@ -1,0 +1,325 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - نظام إدارة الموارد البشرية</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HumanResouresMangementSystem.styles.css" asp-append-version="true" />
+
+    <style>
+        * {
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        /* Layout Structure */
+        .wrapper {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Styling */
+        #sidebar {
+            min-width: 260px;
+            max-width: 260px;
+            background-color: #212529;
+            color: #fff;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+            #sidebar.active {
+                margin-right: -260px;
+            }
+
+            #sidebar .sidebar-header {
+                padding: 20px 15px;
+                background-color: #1a1d20;
+                border-bottom: 1px solid #2c3034;
+            }
+
+            #sidebar ul.components {
+                padding: 15px 0;
+            }
+
+            #sidebar ul li a {
+                padding: 12px 20px;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                color: #adb5bd;
+                text-decoration: none;
+                transition: all 0.2s ease;
+            }
+
+                #sidebar ul li a:hover,
+                #sidebar ul li.active > a {
+                    color: #fff;
+                    background-color: #0d6efd;
+                }
+
+                #sidebar ul li a i {
+                    font-size: 18px;
+                    margin-left: 12px;
+                }
+
+        /* Content Area */
+        #content {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+
+        /* Top Navbar */
+        .top-navbar {
+            padding: 12px 20px;
+            background-color: #212529;
+            border-bottom: 1px solid #2c3034;
+        }
+
+        .btn-toggle-sidebar {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #495057;
+            font-size: 18px;
+            padding: 4px 12px;
+            border-radius: 4px;
+        }
+
+            .btn-toggle-sidebar:hover {
+                background-color: #343a40;
+                color: #fff;
+            }
+
+        /* Permissions Management Custom Styles */
+        .breadcrumb-custom {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+            .breadcrumb-custom a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+        .toggle-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .toggle-btn {
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            background-color: #eef2f7;
+            color: #555;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+            .toggle-btn.active {
+                background-color: #1890ff;
+                color: #fff;
+                border-color: #1890ff;
+            }
+
+        .checkbox-custom {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #1890ff;
+        }
+
+        .btn-save-custom {
+            background-color: #1890ff;
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+            .btn-save-custom:hover {
+                background-color: #096dd9;
+                color: white;
+            }
+
+        @@media (max-width: 768px) {
+            #sidebar {
+                margin-right: -260px;
+            }
+
+                #sidebar.active {
+                    margin-right: 0;
+                }
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="wrapper">
+        <!-- Sidebar القائمة الجانبية -->
+        <nav id="sidebar">
+            <div class="sidebar-header d-flex align-items-center gap-2">
+                <i class="bi bi-people-fill fs-3 text-warning"></i>
+                <span class="fs-5 fw-bold text-white">HRMS System</span>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                        <i class="bi bi-house-door"></i>
+                        <span>الرئيسية</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Users" asp-action="Index">
+                        <i class="bi bi-people"></i>
+                        <span>المستخدمين</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Admin" asp-action="Permissions" asp-route-id="1">
+                        <i class="bi bi-shield-lock"></i>
+                        <span>إدارة الصلاحيات</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Employee" asp-action="Create">
+                        <i class="bi bi-person-badge"></i>
+                        <span>إدارة الموظفين</span>
+                    </a>
+                </li>
+
+                <!-- الإعدادات العامة -->
+                <li>
+                    <a asp-controller="GeneralSettings" asp-action="Index">
+                        <i class="bi bi-sliders"></i>
+                        <span>الإعدادات العامة</span>
+                    </a>
+                </li>
+                <!-- الإعدادات العامة -->
+                <li>
+                    <a asp-controller="OfficialHolidays" asp-action="Index">
+                        <i class="bi bi-sliders"></i>
+                        <span>اعدادات الأجازات الرسمية</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Attendance" asp-action="Index">
+                        <i class="bi bi-people"></i>
+                        <span>تسجيل الحضور و الانصراف للموظفين</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="SalaryReports" asp-action="Index">
+                        <i class="bi bi-people"></i>
+                        <span>عرض رواتب الموظفين</span>
+                    </a>
+                </li>
+
+
+
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Privacy">
+                        <i class="bi bi-shield-check"></i>
+                        <span>الخصوصية</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Main Content Area المنطقة الرئيسية -->
+        <div id="content">
+            <!-- Top Navbar / Header -->
+            <header class="top-navbar d-flex align-items-center justify-content-between shadow-sm">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <!-- Auth Section قسم تسجيل الدخول والمستخدم -->
+                <div class="d-flex align-items-center gap-3">
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <span class="text-light fs-6">
+                            <i class="bi bi-person-circle text-warning me-1"></i> أهلاً، @User.Identity.Name
+                        </span>
+                        <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-outline-light btn-sm rounded-pill px-3">
+                                <i class="bi bi-box-arrow-left me-1"></i> خروج
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a class="btn btn-warning text-dark fw-bold rounded-pill px-4 btn-sm" asp-controller="Account" asp-action="Login">
+                            <i class="bi bi-box-arrow-in-left me-1"></i> تسجيل الدخول
+                        </a>
+                    }
+                </div>
+            </header>
+
+            <!-- Main Page View Content -->
+            <div class="container-fluid p-4 flex-grow-1">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+
+            <!-- Footer -->
+            <footer class="custom-footer mt-auto py-3 bg-dark text-white border-top border-secondary">
+                <div class="container-fluid px-4">
+                    <div class="row align-items-center text-center text-md-start gy-2">
+                        <div class="col-md-6">
+                            <span class="text-light-50">&copy; 2026 - </span>
+                            <span class="fw-semibold text-warning">HR Management System</span>
+                            <span class="text-light-50">. جميع الحقوق محفوظة.</span>
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <a class="text-decoration-none text-light-50 me-3" asp-area="" asp-controller="Home" asp-action="Privacy">
+                                <i class="bi bi-shield-lock me-1"></i>سياسة الخصوصية
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Script للتحكم في فتح وإغلاق القائمة الجانبية -->
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

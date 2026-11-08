@@ -1,0 +1,318 @@
+﻿@{
+    ViewData["Title"] = "الرئيسية";
+
+    var hour = DateTime.Now.Hour;
+    var greeting = hour < 17 ? "صباح الخير" : "مساء الخير";
+    var userName = (User?.Identity != null && User.Identity.IsAuthenticated) ? User.Identity.Name : null;
+    var todayLabel = DateTime.Now.ToString("dddd، d MMMM yyyy", new System.Globalization.CultureInfo("ar-EG"));
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+    /* ===== Welcome home page — namespaced with "home-" ===== */
+
+    .home-wrap {
+        font-family: 'Tajawal', sans-serif;
+        color: #26313C;
+    }
+
+        .home-wrap h1,
+        .home-wrap h2,
+        .home-wrap .home-display {
+            font-family: 'Cairo', sans-serif;
+        }
+
+    :root {
+        --ink: #16283A;
+        --teal: #1F4B4C;
+        --gold: #C08829;
+        --gold-soft: #E4C07C;
+        --parchment: #FBF7EF;
+        --sand: #E7DFCB;
+        --ink-soft: #5C6B77;
+    }
+
+    /* ---------- Hero ---------- */
+    .home-hero {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(160deg, var(--ink) 0%, var(--teal) 100%);
+        border-radius: 4px;
+        padding: 3.25rem 3rem;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    .home-hero-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .home-hero-date {
+        color: var(--gold-soft);
+        font-size: 0.92rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .home-hero h1 {
+        font-weight: 800;
+        font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+        line-height: 1.25;
+        margin-bottom: 0.6rem;
+    }
+
+    .home-hero p {
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 1rem;
+        max-width: 34ch;
+        margin-bottom: 0;
+    }
+
+    .home-star {
+        flex-shrink: 0;
+        width: 148px;
+        height: 148px;
+        animation: home-spin 70s linear infinite;
+    }
+
+    @@keyframes home-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @@media (prefers-reduced-motion: reduce) {
+        .home-star {
+            animation: none;
+        }
+    }
+
+    /* ---------- Quick access bar ---------- */
+    .home-quickbar {
+        background: #fff;
+        border: 1px solid var(--sand);
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }
+
+    .home-quick-item {
+        flex: 1 1 0;
+        min-width: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.55rem;
+        text-decoration: none;
+        color: var(--ink);
+        padding: 1.5rem 0.75rem;
+        border-inline-start: 1px solid var(--sand);
+        text-align: center;
+        transition: background 0.15s ease, color 0.15s ease;
+    }
+
+        .home-quick-item:first-child {
+            border-inline-start: none;
+        }
+
+        .home-quick-item i {
+            font-size: 1.35rem;
+            color: var(--ink-soft);
+            transition: color 0.15s ease;
+        }
+
+        .home-quick-item span {
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .home-quick-item:hover {
+            background: var(--parchment);
+            color: var(--gold);
+        }
+
+            .home-quick-item:hover i {
+                color: var(--gold);
+            }
+
+    /* ---------- Purpose section ---------- */
+    .home-purpose {
+        display: flex;
+        align-items: stretch;
+        gap: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .home-purpose-text {
+        flex: 1 1 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .home-purpose-text h2 {
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: var(--ink);
+            margin-bottom: 0.9rem;
+        }
+
+        .home-purpose-text p {
+            font-size: 1rem;
+            line-height: 1.9;
+            color: var(--ink-soft);
+            max-width: 52ch;
+        }
+
+    .home-purpose-panel {
+        flex: 1 1 45%;
+        min-height: 240px;
+        border-radius: 4px;
+        background-color: var(--teal);
+        background-image: url("data:image/svg+xml,%3Csvg%20width='60'%20height='60'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cg%20fill='none'%20stroke='%23C08829'%20stroke-width='1'%20opacity='0.4'%3E%3Crect%20x='15'%20y='15'%20width='30'%20height='30'%20transform='rotate(45%2030%2030)'/%3E%3Crect%20x='15'%20y='15'%20width='30'%20height='30'/%3E%3C/g%3E%3C/svg%3E");
+        border: 1px solid var(--sand);
+    }
+
+    @@media (max-width: 900px) {
+        .home-purpose {
+            flex-direction: column;
+        }
+
+        .home-purpose-panel {
+            min-height: 160px;
+        }
+    }
+
+    /* ---------- Footer strip ---------- */
+    .home-footer {
+        border-top: 1px solid var(--sand);
+        padding-top: 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        color: var(--ink-soft);
+        font-size: 0.88rem;
+    }
+
+    #home-live-clock {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 700;
+        color: var(--ink);
+    }
+
+    @@media (max-width: 767px) {
+        .home-hero {
+            padding: 2rem 1.5rem;
+        }
+
+        .home-hero-row {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .home-hero p {
+            max-width: none;
+        }
+
+        .home-quick-item {
+            flex: 1 1 33%;
+            border-inline-start: none;
+            border-top: 1px solid var(--sand);
+        }
+
+            .home-quick-item:nth-child(3n+1) {
+                border-inline-start: none;
+            }
+    }
+</style>
+
+<div class="home-wrap">
+
+    <!-- Hero -->
+    <div class="home-hero">
+        <div class="home-hero-row">
+            <div>
+                <div class="home-hero-date">@todayLabel</div>
+                <h1>@greeting@(userName != null ? "، " + userName : "")</h1>
+                <p>نظرة سريعة على واجهتك، وابدأ يومك من هنا.</p>
+            </div>
+            <svg class="home-star" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#E4C07C" stroke-width="1.4" opacity="0.85">
+                    <rect x="25" y="25" width="70" height="70" transform="rotate(45 60 60)" />
+                    <rect x="25" y="25" width="70" height="70" />
+                </g>
+                <circle cx="60" cy="60" r="4" fill="#C08829" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Quick access -->
+    <div class="home-quickbar">
+        <a class="home-quick-item" asp-controller="Employee" asp-action="Create">
+            <i class="bi bi-people"></i>
+            <span>الموظفون</span>
+        </a>
+        <a class="home-quick-item" asp-controller="Attendance" asp-action="Index">
+            <i class="bi bi-clock-history"></i>
+            <span>الحضور والانصراف</span>
+        </a>
+        <a class="home-quick-item" asp-controller="SalaryReports" asp-action="Index">
+            <i class="bi bi-cash-stack"></i>
+            <span>الرواتب</span>
+        </a>
+        <a class="home-quick-item" asp-controller="Admin" asp-action="Permissions" asp-route-id="1">
+            <i class="bi bi-shield-lock"></i>
+            <span>الصلاحيات</span>
+        </a>
+
+        <a class="home-quick-item" asp-controller="GeneralSettings" asp-action="Index">
+            <i class="bi bi-gear"></i>
+            <span>الإعدادات العامة</span>
+        </a>
+    </div>
+
+    <!-- Purpose -->
+    <div class="home-purpose">
+        <div class="home-purpose-text">
+            <h2>كل ما يحتاجه يومك في مكان واحد</h2>
+            <p>
+                من تسجيل الحضور إلى متابعة الإجازات واحتساب الرواتب، صُمم هذا النظام
+                ليكون نقطة البداية اليومية لفريقك. ابدأ من هنا، وانتقل إلى ما تحتاجه
+                بخطوة واحدة فقط.
+            </p>
+        </div>
+        <div class="home-purpose-panel" role="img" aria-label="زخرفة هندسية"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="home-footer">
+        <span>نظام إدارة الموارد البشرية</span>
+        <span>الوقت الآن: <span id="home-live-clock"></span></span>
+    </div>
+</div>
+
+<script>
+    (function () {
+        var el = document.getElementById('home-live-clock');
+        function tick() {
+            if (!el) return;
+            el.textContent = new Date().toLocaleTimeString('ar-EG', { hour: '2-digit', minute: '2-digit' });
+        }
+        tick();
+        setInterval(tick, 30000);
+    })();
+</script>
+

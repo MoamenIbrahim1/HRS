@@ -1,0 +1,12 @@
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\bin\Debug\net9.0\HumanResouresMangementSystem.Core.deps.json
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\bin\Debug\net9.0\HumanResouresMangementSystem.Core.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\bin\Debug\net9.0\HumanResouresMangementSystem.Core.pdb
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.AssemblyInfoInputs.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.AssemblyInfo.cs
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\refint\HumanResouresMangementSystem.Core.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.pdb
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\ref\HumanResouresMangementSystem.Core.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.Core\obj\Debug\net9.0\HumanResouresMangementSystem.Core.csproj.AssemblyReference.cache

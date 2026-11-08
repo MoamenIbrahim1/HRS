@@ -1,0 +1,203 @@
+﻿@model HumanResouresMangementSystem.Core.Dto.GeneralSettingsViewModel
+
+@{
+    ViewData["Title"] = "الإعدادات العامة";
+}
+
+<div class="container py-4" dir="rtl">
+    <!-- كارت عرض البيانات الحالي -->
+    <div class="card shadow-sm border-0 rounded-3">
+        <div class="card-header bg-primary text-white py-3">
+            <h4 class="card-title mb-0 fw-bold text-center">
+                <i class="bi bi-gear-fill me-2"></i> الإعدادات العامة
+            </h4>
+        </div>
+        <div class="card-body p-4 text-center">
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <span class="fw-bold d-block text-secondary mb-1">الإضافة (بالساعات)</span>
+                        <span class="fs-5 fw-bold text-dark">@Model.ExtraHoursRate ساعة</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <span class="fw-bold d-block text-secondary mb-1">الخصم (بالساعات)</span>
+                        <span class="fs-5 fw-bold text-dark">@Model.DeductionHoursRate ساعة</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <span class="fw-bold d-block text-secondary mb-1">يوم الإجازة الرسمي 1</span>
+                        <span class="fs-5 fw-bold text-dark">@Model.FirstWeekendDay</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <span class="fw-bold d-block text-secondary mb-1">يوم الإجازة الرسمي 2</span>
+                        <span class="fs-5 fw-bold text-dark">@(Model.SecondWeekendDay?.ToString() ?? "لا يوجد")</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- زر التعديل لفتح الـ Pop-up -->
+            <button type="button" class="btn btn-warning px-5 py-2 fw-bold" data-bs-toggle="modal" data-bs-target="#settingsModal">
+                <i class="bi bi-pencil-square me-1"></i> تعديل
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Pop-up / Modal تعديل الإعدادات -->
+<div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true" dir="rtl">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title fw-bold" id="settingsModalLabel">
+                    <i class="bi bi-sliders me-2"></i> تعديل إعدادات النظام
+                </h5>
+                <button type="button" class="btn-close btn-close-white ms-0 me-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form id="generalSettingsForm" asp-action="Save" asp-controller="GeneralSettings" method="post" novalidate>
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+
+                <div class="modal-body p-4 text-start">
+
+                    <!-- الإضافي والخصم -->
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6 text-end">
+                            <label asp-for="ExtraHoursRate" class="form-label fw-bold"></label>
+                            <input asp-for="ExtraHoursRate" class="form-control" type="number" step="0.5" placeholder="مثال: 2" />
+                            <span class="text-danger small field-error" id="err-ExtraHoursRate"></span>
+                        </div>
+
+                        <div class="col-md-6 text-end">
+                            <label asp-for="DeductionHoursRate" class="form-label fw-bold"></label>
+                            <input asp-for="DeductionHoursRate" class="form-control" type="number" step="0.5" placeholder="مثال: 2" />
+                            <span class="text-danger small field-error" id="err-DeductionHoursRate"></span>
+                        </div>
+                    </div>
+
+                    <h6 class="fw-bold border-bottom pb-2 mt-4 mb-3 text-end text-secondary">الإجازات الأسبوعية</h6>
+
+                    <!-- أيام الإجازات الأسبوعية -->
+                    <div class="row g-3">
+                        <div class="col-md-6 text-end">
+                            <label asp-for="FirstWeekendDay" class="form-label fw-bold"></label>
+                            <select asp-for="FirstWeekendDay" class="form-select">
+                                <option value="">-- اختر اليوم --</option>
+                                <option value="Friday">الجمعة</option>
+                                <option value="Saturday">السبت</option>
+                                <option value="Sunday">الأحد</option>
+                                <option value="Monday">الإثنين</option>
+                                <option value="Tuesday">الثلاثاء</option>
+                                <option value="Wednesday">الأربعاء</option>
+                                <option value="Thursday">الخميس</option>
+                            </select>
+                            <span class="text-danger small field-error" id="err-FirstWeekendDay"></span>
+                        </div>
+
+                        <div class="col-md-6 text-end">
+                            <label asp-for="SecondWeekendDay" class="form-label fw-bold"></label>
+                            <select asp-for="SecondWeekendDay" class="form-select">
+                                <option value="">-- اختر اليوم --</option>
+                                <option value="Saturday">السبت</option>
+                                <option value="Friday">الجمعة</option>
+                                <option value="Sunday">الأحد</option>
+                                <option value="Monday">الإثنين</option>
+                                <option value="Tuesday">الثلاثاء</option>
+                                <option value="Wednesday">الأربعاء</option>
+                                <option value="Thursday">الخميس</option>
+                            </select>
+                            <span class="text-danger small field-error" id="err-SecondWeekendDay"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer / Buttons -->
+                <div class="modal-footer d-flex justify-content-start gap-2">
+                    <button type="submit" id="btnSave" class="btn btn-success px-4" disabled>حفظ</button>
+                    <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">إلغاء</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("generalSettingsForm");
+            const btnSave = document.getElementById("btnSave");
+            const inputs = form.querySelectorAll("input[type='number'], select");
+
+            const defaultErrorMsg = "من فضلك ادخال بيانات الحقل";
+
+            // فحص صحة الحقول وتحديث حالة زر الحفظ والرسائل
+            function validateForm() {
+                let isValid = true;
+
+                inputs.forEach(input => {
+                    const fieldName = input.getAttribute("name");
+                    const errorSpan = document.getElementById(`err-${fieldName}`);
+
+                    if (errorSpan) {
+                        if (!input.value || input.value.trim() === "") {
+                            errorSpan.textContent = defaultErrorMsg;
+                            isValid = false;
+                        } else {
+                            errorSpan.textContent = "";
+                        }
+                    }
+                });
+
+                // تفعيل/إلغاء زر الحفظ حسب كمال البيانات
+                btnSave.disabled = !isValid;
+            }
+
+            // الاستجابة للتغييرات المباشرة في المدخلات
+            inputs.forEach(input => {
+                input.addEventListener("input", validateForm);
+                input.addEventListener("change", validateForm);
+            });
+
+            // التحقق وتجهيز الشاشة فور فتح الـ Pop-up
+            const settingsModal = document.getElementById('settingsModal');
+            settingsModal.addEventListener('shown.bs.modal', function () {
+                validateForm();
+            });
+
+            // معالجة حفظ البيانات عبر AJAX
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                if (btnSave.disabled) return;
+
+                const formData = new FormData(form);
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        const modal = bootstrap.Modal.getInstance(settingsModal);
+                        modal.hide();
+                        location.reload();
+                    } else {
+                        alert(data.message || "حدث خطأ أثناء الحفظ");
+                    }
+                })
+                .catch(error => console.error("Error:", error));
+            });
+        });
+    </script>
+}

@@ -1,0 +1,1663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\authorization\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\authorization\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\contracts\\ipermissionservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\contracts\\ipermissionservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\authorization\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\authorization\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\admin\\permissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\admin\\permissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260826083632_addfieldstogrouppermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260826083632_addfieldstogrouppermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\generalsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\generalsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\humanresouresmangementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\humanresouresmangementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\officialholidayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\officialholidayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\data\\dbintializer\\dbintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\data\\dbintializer\\dbintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\officialholidays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\officialholidays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\loginmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\loginmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\grouppermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\grouppermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\hrgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\hrgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\workdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\workdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\employeetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\employeetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\generalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\generalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\salaryreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\salaryreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\humanresouresmangementsystem.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\humanresouresmangementsystem.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\humanresouresmangementsystem.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\humanresouresmangementsystem.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\salaryreports\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\salaryreports\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\deductionsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\deductionsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\enums\\deductiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\enums\\deductiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\salaryreportitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\salaryreportitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\employeeovertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\employeeovertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\employeededuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\employeededuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\employeesalaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\employeesalaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\officialholiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\officialholiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\groupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\groupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\genralsettingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\genralsettingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\attendancereportfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\attendancereportfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\generalsettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\generalsettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\attendancereportitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\attendancereportitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\attendancecreateeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\attendancecreateeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\employeeconfiquration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\employeeconfiquration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\grouppremissionconfiquration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\grouppremissionconfiquration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\workdataconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\workdataconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\departmentconfiqurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\departmentconfiqurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\officialholidayconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\officialholidayconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\employeedeductionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\employeedeductionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\workdataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\workdataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\employeeovertimeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\employeeovertimeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\viewmodels\\officialholidayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\viewmodels\\officialholidayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\models\\overtimesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\models\\overtimesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\overtimesettingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\overtimesettingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\confiqurations\\deductionsettingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\confiqurations\\deductionsettingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.core\\enums\\overtimeratetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED4C107-8AE7-4581-B140-C937E50A382D}|HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj|solutionrelative:humanresouresmangementsystem.core\\enums\\overtimeratetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260824084718_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260824084718_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{576124E4-ED21-494C-8652-2473B9C35731}|HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj|solutionrelative:humanresouresmangementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260824091908_seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260824091908_seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260826121047_editdields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260826121047_editdields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260826111804_add-dbsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260826111804_add-dbsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260826110954_add-employee-workdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260826110954_add-employee-workdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260826090658_editseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260826090658_editseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831125728_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831125728_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831125029_addattend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831125029_addattend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831124744_addattendanceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831124744_addattendanceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831121638_validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831121638_validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831120557_addconstrains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831120557_addconstrains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831114425_allownull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831114425_allownull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831112909_solveerrordescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831112909_solveerrordescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831112728_seeddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831112728_seeddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831111635_solveerorr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831111635_solveerorr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831111241_adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831111241_adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831083303_add_genral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831083303_add_genral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260831081203_addgenralsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260831081203_addgenralsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260914130909_sdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260914130909_sdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260914081959_editseedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260914081959_editseedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260914081523_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260914081523_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260914080944_editdatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260914080944_editdatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260914074529_addhoursdeduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260914074529_addhoursdeduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|c:\\users\\ascom\\source\\repos\\humanresouresmangementsystem\\humanresouresmangementsystem.dal\\migrations\\20260917091647_addpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9560ED-902F-41A1-A359-B87C2FD35DF3}|HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj|solutionrelative:humanresouresmangementsystem.dal\\migrations\\20260917091647_addpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HasPermissionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\HasPermissionAttribute.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Authorization\\HasPermissionAttribute.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\HasPermissionAttribute.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Authorization\\HasPermissionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:55:18.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Authorization\\PermissionRequirement.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\PermissionRequirement.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Authorization\\PermissionRequirement.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:47:51.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Permission.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:13:14.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PermissionPolicyProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\PermissionPolicyProvider.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Authorization\\PermissionPolicyProvider.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Authorization\\PermissionPolicyProvider.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Authorization\\PermissionPolicyProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:55:55.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPermissionService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Contracts\\IPermissionService.cs.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Contracts\\IPermissionService.cs.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Contracts\\IPermissionService.cs.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Contracts\\IPermissionService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:24:37.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:09:26.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T10:36:42.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Permissions.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Admin\\Permissions.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Admin\\Permissions.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Admin\\Permissions.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Admin\\Permissions.cshtml",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAAAHoBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T08:45:10.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260826083632_addfieldstogrouppermissions.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826083632_addfieldstogrouppermissions.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826083632_addfieldstogrouppermissions.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826083632_addfieldstogrouppermissions.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826083632_addfieldstogrouppermissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:36:32.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Program.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:03:58.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OfficialHolidaysController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\OfficialHolidaysController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\OfficialHolidaysController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\OfficialHolidaysController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\OfficialHolidaysController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T09:35:33.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:42:10.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GeneralSettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\GeneralSettingsController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\GeneralSettingsController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\GeneralSettingsController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\GeneralSettingsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T08:05:02.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:46:28.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAuwHQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T12:02:36.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:33:02.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAKUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:20:27.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DbIntializer.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Data\\DbIntializer\\DbIntializer.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Data\\DbIntializer\\DbIntializer.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Data\\DbIntializer\\DbIntializer.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Data\\DbIntializer\\DbIntializer.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAQwJwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:13:33.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T10:37:50.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAFcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T12:10:15.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T12:11:17.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\OfficialHolidays\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\OfficialHolidays\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\OfficialHolidays\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\OfficialHolidays\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T09:43:41.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "20260917091647_addpassword.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260917091647_addpassword.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260917091647_addpassword.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260917091647_addpassword.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260917091647_addpassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:16:48.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginModelView.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\LoginModelView.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\LoginModelView.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\LoginModelView.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\LoginModelView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:01:53.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\Employee.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwBEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:38:19.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\User.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:10:24.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HrGroup.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\HrGroup.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\HrGroup.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\HrGroup.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\HrGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:11:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GroupPermission.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\GroupPermission.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\GroupPermission.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\GroupPermission.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\GroupPermission.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:15:50.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WorkData.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\WorkData.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\WorkData.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\WorkData.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\WorkData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:43:11.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:36:02.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T07:58:38.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmployeeTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeTransaction.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\EmployeeTransaction.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeTransaction.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\EmployeeTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:45:40.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GeneralSettings.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\GeneralSettings.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\GeneralSettings.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\GeneralSettings.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\GeneralSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T08:31:36.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20260914130909_sdata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914130909_sdata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260914130909_sdata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914130909_sdata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260914130909_sdata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:09:09.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\SalaryReports\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\SalaryReports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\SalaryReports\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\SalaryReports\\Index.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwIgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T07:49:25.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAAsBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T13:03:55.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:44:19.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HumanResouresMangementSystem.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\HumanResouresMangementSystem.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-24T07:59:32.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Print.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\SalaryReports\\Print.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\SalaryReports\\Print.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\SalaryReports\\Print.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\SalaryReports\\Print.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T08:25:55.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:38:49.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HumanResouresMangementSystem.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\HumanResouresMangementSystem.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-24T07:56:19.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20260914081959_editseedingdata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914081959_editseedingdata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260914081959_editseedingdata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914081959_editseedingdata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260914081959_editseedingdata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:19:59.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SalaryReportItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\SalaryReportItemViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\SalaryReportItemViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\SalaryReportItemViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\SalaryReportItemViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAawBsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T07:28:02.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EmployeeOvertime.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeOvertime.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\EmployeeOvertime.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeOvertime.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\EmployeeOvertime.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:09:06.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeductionSetting.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\DeductionSetting.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\DeductionSetting.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\DeductionSetting.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\DeductionSetting.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:06:56.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeductionType.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Enums\\DeductionType.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Enums\\DeductionType.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Enums\\DeductionType.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Enums\\DeductionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:20:51.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20260914081523_seed.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914081523_seed.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260914081523_seed.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914081523_seed.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260914081523_seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:15:23.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20260914080944_editdatatype.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914080944_editdatatype.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260914080944_editdatatype.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914080944_editdatatype.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260914080944_editdatatype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T08:09:44.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EmployeeDeduction.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeDeduction.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\EmployeeDeduction.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\EmployeeDeduction.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\EmployeeDeduction.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:11:17.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmployeeSalaryReport.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\EmployeeSalaryReport.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\EmployeeSalaryReport.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\EmployeeSalaryReport.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\EmployeeSalaryReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T07:16:56.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20260914074529_addhoursdeduction.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914074529_addhoursdeduction.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260914074529_addhoursdeduction.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260914074529_addhoursdeduction.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260914074529_addhoursdeduction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T07:45:29.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Department.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T10:48:50.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "OfficialHoliday.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\OfficialHoliday.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\OfficialHoliday.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\OfficialHoliday.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\OfficialHoliday.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:42:53.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\Attendance.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:44:53.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\EmployeeViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwC0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:46:35.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GroupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\GroupViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\GroupViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\GroupViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\GroupViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T13:00:28.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "permissionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\permissionViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\permissionViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\permissionViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\permissionViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T07:51:16.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GenralSettingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\GenralSettingViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\GenralSettingViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\GenralSettingViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\GenralSettingViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T08:01:13.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AttendanceReportFilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportFilterViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportFilterViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportFilterViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportFilterViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:38:22.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\GeneralSettings\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\GeneralSettings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\GeneralSettings\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\GeneralSettings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T08:26:18.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AttendanceReportItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportItemViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportItemViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportItemViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceReportItemViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:39:53.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20260831125728_seeding.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831125728_seeding.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831125728_seeding.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831125728_seeding.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831125728_seeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:57:28.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AttendanceCreateEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceCreateEditViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceCreateEditViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\AttendanceCreateEditViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\AttendanceCreateEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T13:03:12.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20260831125029_ADDATTEND.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831125029_ADDATTEND.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831125029_ADDATTEND.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831125029_ADDATTEND.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831125029_ADDATTEND.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:50:29.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20260831124744_AddAttendanceEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831124744_AddAttendanceEntity.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831124744_AddAttendanceEntity.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831124744_AddAttendanceEntity.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831124744_AddAttendanceEntity.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:47:44.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EmployeeConfiquration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeConfiquration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeConfiquration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeConfiquration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeConfiquration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T10:53:23.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GroupPremissionConfiquration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\GroupPremissionConfiquration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\GroupPremissionConfiquration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\GroupPremissionConfiquration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\GroupPremissionConfiquration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:18:29.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20260831121638_validation.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831121638_validation.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831121638_validation.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831121638_validation.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831121638_validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:16:38.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DepartmentConfiqurations.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\DepartmentConfiqurations.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\DepartmentConfiqurations.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\DepartmentConfiqurations.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\DepartmentConfiqurations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:00:22.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WorkDataConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\WorkDataConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\WorkDataConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\WorkDataConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\WorkDataConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:57:09.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20260831120557_addconstrains.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831120557_addconstrains.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831120557_addconstrains.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831120557_addconstrains.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831120557_addconstrains.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:05:58.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OfficialHolidayConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\OfficialHolidayConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\OfficialHolidayConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\OfficialHolidayConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\OfficialHolidayConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:57:13.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EmployeeDeductionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeDeductionConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeDeductionConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeDeductionConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeDeductionConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:47:40.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EmployeeOvertimeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeOvertimeConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeOvertimeConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeOvertimeConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\EmployeeOvertimeConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:56:12.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "WorkDataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\WorkDataViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\WorkDataViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\WorkDataViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\WorkDataViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:58:03.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "OfficialHolidayViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\OfficialHolidayViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\ViewModels\\OfficialHolidayViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\ViewModels\\OfficialHolidayViewModel.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\ViewModels\\OfficialHolidayViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T09:33:34.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "OvertimeSetting.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\OvertimeSetting.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Models\\OvertimeSetting.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Models\\OvertimeSetting.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Models\\OvertimeSetting.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:12:14.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20260831114425_allownull.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831114425_allownull.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831114425_allownull.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831114425_allownull.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831114425_allownull.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:44:25.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20260831112909_solveerrordescription.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831112909_solveerrordescription.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831112909_solveerrordescription.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831112909_solveerrordescription.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831112909_solveerrordescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:29:10.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20260831112728_seeddepartment.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831112728_seeddepartment.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831112728_seeddepartment.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831112728_seeddepartment.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831112728_seeddepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:27:28.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20260831111635_solveerorr.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831111635_solveerorr.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831111635_solveerorr.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831111635_solveerorr.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831111635_solveerorr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:16:35.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20260831111241_adddepartment.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831111241_adddepartment.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831111241_adddepartment.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831111241_adddepartment.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831111241_adddepartment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:12:42.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "OvertimeSettingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\OvertimeSettingConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\OvertimeSettingConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\OvertimeSettingConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\OvertimeSettingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:53:23.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAswPYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T12:07:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T12:03:09.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-25T13:50:07.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "HumanResouresMangementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T10:35:03.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20260831083303_add_genral.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831083303_add_genral.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831083303_add_genral.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831083303_add_genral.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831083303_add_genral.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T08:33:04.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20260831081203_addgenralsetting.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831081203_addgenralsetting.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831081203_addgenralsetting.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831081203_addgenralsetting.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831081203_addgenralsetting.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T08:12:03.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "DeductionSettingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\DeductionSettingConfiguration.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Confiqurations\\DeductionSettingConfiguration.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Confiqurations\\DeductionSettingConfiguration.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Confiqurations\\DeductionSettingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:48:35.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20260831074139_AddHolidayDeductionOvertime.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260831074139_AddHolidayDeductionOvertime.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:41:39.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "OvertimeRateType.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Enums\\OvertimeRateType.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.Core\\Enums\\OvertimeRateType.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.Core\\Enums\\OvertimeRateType.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.Core\\Enums\\OvertimeRateType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T07:12:57.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20260826121047_editdields.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826121047_editdields.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826121047_editdields.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826121047_editdields.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826121047_editdields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T12:10:47.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20260826111804_add-dbsets.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826111804_add-dbsets.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826111804_add-dbsets.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826111804_add-dbsets.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826111804_add-dbsets.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:18:04.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20260826110827_Addemployeeandworkdata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826110827_Addemployeeandworkdata.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:08:27.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20260826110954_add-employee-workdata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826110954_add-employee-workdata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826110954_add-employee-workdata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826110954_add-employee-workdata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826110954_add-employee-workdata.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:09:55.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20260826090658_editseeddata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826090658_editseeddata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260826090658_editseeddata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260826090658_editseeddata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260826090658_editseeddata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:06:58.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HumanResouresMangementSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-24T11:05:29.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HumanResouresMangementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj",
+              "RelativeToolTip": "HumanResouresMangementSystem\\HumanResouresMangementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-24T07:36:53.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20260824091908_seeddata.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260824091908_seeddata.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260824091908_seeddata.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260824091908_seeddata.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260824091908_seeddata.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:19:08.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20260824084718_init2.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260824084718_init2.cs",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem.DAL\\Migrations\\20260824084718_init2.cs",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem.DAL\\Migrations\\20260824084718_init2.cs",
+              "RelativeToolTip": "HumanResouresMangementSystem.DAL\\Migrations\\20260824084718_init2.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:47:18.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HumanResouresMangementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\ascom\\source\\repos\\HumanResouresMangementSystem\\HumanResouresMangementSystem\\appsettings.json",
+              "RelativeToolTip": "HumanResouresMangementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T08:02:19.506Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

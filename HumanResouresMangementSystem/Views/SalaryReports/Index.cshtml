@@ -1,0 +1,137 @@
+﻿@using HumanResouresMangementSystem.Core.ViewModels
+@model EmployeeSalaryReport
+@{
+    ViewData["Title"] = "رواتب الموظفين";
+}
+
+<div class="container-fluid">
+
+    <div class="card">
+        <div class="card-header">
+            <h4>رواتب الموظفين</h4>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Index" method="get">
+                <div class="row g-3">
+
+                    <!-- Employee -->
+                    <div class="col-md-3">
+                        <label class="form-label">الموظف</label>
+                        <select name="employeeId" class="form-select">
+                            <option value="">كل الموظفين</option>
+                            @if (ViewBag.Employees != null)
+                            {
+                                foreach (var employee in ViewBag.Employees)
+                                {
+                                    <option value="@employee.Id" selected="@(Model.EmployeeId == employee.Id)">
+                                        @employee.Name
+                                    </option>
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    <!-- Month -->
+                    <div class="col-md-3">
+                        <label class="form-label">الشهر</label>
+                        <select name="month" class="form-select">
+                            @for (int i = 1; i <= 12; i++)
+                            {
+                                <option value="@i" selected="@(Model.Month == i)">
+                                    @i
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <!-- Year -->
+                    <div class="col-md-3">
+                        <label class="form-label">السنة</label>
+                        <input type="number" name="year" value="@Model.Year" class="form-control" />
+                    </div>
+
+                    <!-- Search -->
+                    <div class="col-md-3 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-search"></i> بحث
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+    <!-- إظهار رسائل الخطأ والتنبيهات بشرط وجود أخطاء فقط -->
+    @if (!ViewData.ModelState.IsValid && ViewData.ModelState.Values.Any(v => v.Errors.Count > 0))
+    {
+        <div asp-validation-summary="All" class="alert alert-danger mb-3 font-weight-bold"></div>
+    }
+
+    <!-- ========================= -->
+    <!-- Salary Table -->
+    <!-- ========================= -->
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead>
+                        <tr>
+                            <th>اسم الموظف</th>
+                            <th>القسم</th>
+                            <th>الراتب الأساسي</th>
+                            <th>أيام الحضور</th>
+                            <th>أيام الغياب</th>
+                            <th>الإضافي بالساعات</th>
+                            <th>الخصم بالساعات</th>
+                            <th>إجمالي الإضافي</th>
+                            <th>إجمالي الخصم</th>
+                            <th>الصافي</th>
+                            <th>العمليات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Reports != null && Model.Reports.Any())
+                        {
+                            foreach (var item in Model.Reports)
+                            {
+                                <tr>
+                                    <td>@item.EmployeeName</td>
+                                    <td>@item.DepartmentName</td>
+                                    <td>@item.BasicSalary</td>
+                                    <td>@item.AttendanceDays</td>
+                                    <td>@item.AbsenceDays</td>
+                                    <td>@item.OvertimeHours</td>
+                                    <td>@item.DeductionHours</td>
+                                    <td>@item.TotalOvertime</td>
+                                    <td>@item.TotalDeduction</td>
+                                    <td><strong>@item.NetSalary</strong></td>
+                                    <td>
+                                        <a asp-action="Print"
+                                           asp-route-employeeId="@item.EmployeeId"
+                                           asp-route-month="@Model.Month"
+                                           asp-route-year="@Model.Year"
+                                           class="btn btn-sm btn-dark"
+                                           target="_blank">
+                                            <i class="bi bi-printer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="11">لا توجد بيانات للعرض</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

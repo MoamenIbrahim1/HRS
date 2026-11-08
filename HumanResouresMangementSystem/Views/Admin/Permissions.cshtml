@@ -1,0 +1,379 @@
+﻿@model HumanResouresMangementSystem.Core.Dto.GroupViewModel
+
+@{
+    ViewData["Title"] = "مجموعة المستخدمين - إدارة الصلاحيات";
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            padding: 24px;
+            direction: rtl;
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+            .breadcrumb a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            .breadcrumb .sep {
+                display: inline-block;
+                transform: scaleX(-1);
+                color: #aaa;
+            }
+
+        .header-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 24px;
+        }
+
+        .toggle-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .toggle-btn {
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            background-color: #eef2f7;
+            color: #555;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+            .toggle-btn.active {
+                background-color: #1890ff;
+                color: #fff;
+                border-color: #1890ff;
+            }
+
+        .input-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .input-field {
+            flex: 1;
+            padding: 10px 14px;
+            font-size: 14px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            outline: none;
+            text-align: right;
+        }
+
+            .input-field:focus {
+                border-color: #1890ff;
+            }
+
+        .btn-save {
+            background-color: #1890ff;
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+            .btn-save:hover {
+                background-color: #096dd9;
+            }
+
+        .table-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #666;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+            .table-controls > div {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+
+        .entries-select {
+            padding: 4px 8px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+        }
+
+        .search-input {
+            padding: 6px 12px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            outline: none;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            padding: 12px 16px;
+            border: 1px solid #e9ecef;
+        }
+
+        td {
+            padding: 12px 16px;
+            border: 1px solid #e9ecef;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        .checkbox-custom {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #1890ff;
+        }
+
+        .table-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #666;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .pagination {
+            display: flex;
+            gap: 4px;
+        }
+
+        .page-btn {
+            padding: 6px 12px;
+            border: 1px solid #dcdfe6;
+            background: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+            .page-btn.active {
+                background-color: #1890ff;
+                color: white;
+                border-color: #1890ff;
+            }
+
+        .alert-danger {
+            background-color: #ff4d4f;
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        @@media (max-width: 600px) {
+            .input-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+
+        .btn-save {
+            width: 100%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Breadcrumb Header -->
+        <div class="breadcrumb">
+            <a asp-action="Index">مجموعات المستخدمين</a>
+            <span class="sep">&gt;</span>
+            <span>تعديل صلاحيات المجموعة</span>
+        </div>
+        <h2 class="header-title">مجموعة المستخدمين: @(string.IsNullOrEmpty(Model.GroupName) ? "مجموعة جديدة" : Model.GroupName)</h2>
+
+        <!-- عرض أخطاء الـ ModelState إن وجدت -->
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger mb-3" role="alert">
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </div>
+        }
+
+        <!-- Mode Buttons -->
+        <div class="toggle-group">
+            <button type="button" class="toggle-btn active" id="btn-all" onclick="selectAllPermissions(true)">كل الصلاحيات</button>
+            <button type="button" class="toggle-btn" id="btn-custom" onclick="selectAllPermissions(false)">صلاحيات مخصصة</button>
+        </div>
+
+        <!-- Single Form Section -->
+        <form asp-action="Permissions" asp-controller="Admin" method="post">
+            @Html.AntiForgeryToken()
+
+            <!-- Hidden Field for GroupId -->
+            <input type="hidden" asp-for="GroupId" />
+
+            <div class="input-section">
+                <input type="text" asp-for="GroupName" class="input-field" placeholder="اسم المجموعة" required />
+                <span asp-validation-for="GroupName" class="text-danger small"></span>
+                <button type="submit" class="btn-save">حفظ الصلاحيات</button>
+            </div>
+
+            <!-- Table Controls -->
+            <div class="table-controls">
+                <div>
+                    <span>عرض</span>
+                    <select class="entries-select" id="entries-count">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                    </select>
+                    <span>مدخلات</span>
+                </div>
+                <div>
+                    <label for="search">بحث:</label>
+                    <input type="text" id="search" class="search-input" placeholder="بحث..." onkeyup="filterTable()">
+                </div>
+            </div>
+
+            <!-- Permissions Table -->
+            <div class="table-wrapper">
+                <table id="permissions-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox" id="select-all-header" class="checkbox-custom" onclick="toggleSelectAllHeader(this)">
+                            </th>
+                            <th>الصفحة</th>
+                            <th>إضافة</th>
+                            <th>حذف</th>
+                            <th>تعديل</th>
+                            <th>عرض</th>
+                        </tr>
+                    </thead>
+                    <tbody id="permissions-body">
+                        @if (Model.Permissions != null)
+                        {
+                            for (int i = 0; i < Model.Permissions.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <!-- ✅ نقل الحقل المخفي إلى داخل الـ <td> لضمان ربط البيانات أثناء الـ POST -->
+                                        <input type="hidden" asp-for="Permissions[i].PageName" />
+                                        <input type="checkbox" class="checkbox-custom row-select" onclick="toggleRowPermissions(this, @i)">
+                                    </td>
+                                    <td>@Model.Permissions[i].PageName</td>
+                                    <td>
+                                        <input type="checkbox" asp-for="Permissions[i].CanAdd" class="checkbox-custom perm-add-@i" />
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" asp-for="Permissions[i].CanDelete" class="checkbox-custom perm-delete-@i" />
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" asp-for="Permissions[i].CanEdit" class="checkbox-custom perm-edit-@i" />
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" asp-for="Permissions[i].CanView" class="checkbox-custom perm-view-@i" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // التحديد أو الإلغاء الشامل لجميع الصلاحيات
+        function toggleSelectAllHeader(source) {
+            const checkboxes = document.querySelectorAll('#permissions-body input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = source.checked);
+        }
+
+        function selectAllPermissions(status) {
+            const checkboxes = document.querySelectorAll('#permissions-body input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = status);
+            document.getElementById('select-all-header').checked = status;
+
+            document.getElementById('btn-all').classList.toggle('active', status);
+            document.getElementById('btn-custom').classList.toggle('active', !status);
+        }
+
+        // تحديد/إلغاء جميع صلاحيات صف واحد
+        function toggleRowPermissions(source, index) {
+            document.querySelector(`.perm-add-${index}`).checked = source.checked;
+            document.querySelector(`.perm-delete-${index}`).checked = source.checked;
+            document.querySelector(`.perm-edit-${index}`).checked = source.checked;
+            document.querySelector(`.perm-view-${index}`).checked = source.checked;
+        }
+
+        // فلترة البحث الفوري
+        function filterTable() {
+            const input = document.getElementById('search').value.toLowerCase();
+            const rows = document.querySelectorAll('#permissions-body tr');
+
+            rows.forEach(row => {
+                const pageNameCell = row.cells[1];
+                if (pageNameCell) {
+                    const text = pageNameCell.textContent || pageNameCell.innerText;
+                    row.style.display = text.toLowerCase().includes(input) ? '' : 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

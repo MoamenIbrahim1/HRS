@@ -1,0 +1,119 @@
+﻿@model HumanResouresMangementSystem.Core.Dto.LoginViewModel
+
+@{
+    ViewData["Title"] = "Log In";
+}
+
+<style>
+    .login-container {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        direction: ltr; /* لتوسيط عناصر الواجهة كالتصميم */
+    }
+
+    .login-card {
+        background: #ffffff;
+        border: none;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        padding: 45px 35px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .login-logo {
+        max-width: 180px;
+        height: auto;
+        display: block;
+        margin: 0 auto 35px auto;
+    }
+
+    .custom-input-group {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .custom-input {
+        border: none;
+        border-bottom: 1px solid #dcdcdc;
+        border-radius: 0;
+        padding: 10px 5px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        background-color: transparent;
+        box-shadow: none !important;
+    }
+
+    .custom-input:focus {
+        border-bottom-color: #4a6fa5;
+        background-color: transparent;
+    }
+
+    .custom-input::placeholder {
+        color: #a0a0a0;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .btn-login {
+        background: linear-gradient(180deg, #466885 0%, #3b5873 100%);
+        border: none;
+        border-radius: 50px;
+        padding: 12px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(59, 88, 115, 0.2);
+    }
+
+    .btn-login:hover {
+        background: linear-gradient(180deg, #3b5873 0%, #2e465d 100%);
+        color: #ffffff;
+        transform: translateY(-1px);
+    }
+</style>
+
+<div class="login-container">
+    <div class="login-card">
+
+        <!-- Logo Image -->
+        <img src="~/images/hrs.jpg" alt="Pioneers Logo" class="login-logo" />
+
+        <form asp-action="Login" asp-controller="Account" method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3 small text-center"></div>
+
+            <div class="custom-input-group">
+                <input asp-for="UserNameOrEmail"
+                       class="form-control custom-input"
+                       placeholder="EMAIL"
+                       autocomplete="off" />
+                <span asp-validation-for="UserNameOrEmail" class="text-danger small"></span>
+            </div>
+
+            <div class="custom-input-group">
+                <input asp-for="Password"
+                       type="password"
+                       class="form-control custom-input"
+                       placeholder="PASSWORD" />
+                <span asp-validation-for="Password" class="text-danger small"></span>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-login w-100">Sign in</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

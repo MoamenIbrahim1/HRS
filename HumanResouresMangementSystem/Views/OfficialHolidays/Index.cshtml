@@ -1,0 +1,145 @@
+﻿@model HumanResouresMangementSystem.Core.ViewModels.OfficialHolidayViewModel
+
+@{
+    ViewData["Title"] = "الأجازات الرسمية";
+}
+
+<div class="container py-4">
+    <!-- كارت إضافة إجازة جديدة -->
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-header bg-primary text-white py-3">
+            <h4 class="mb-0 fw-bold"><i class="bi bi-calendar-event me-2"></i>الأجازات الرسمية</h4>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Create" method="post">
+                <div class="row g-3 align-items-end">
+                    <div class="col-md-5">
+                        <label asp-for="Name" class="form-label fw-semibold">اسم الأجازة</label>
+                        <input asp-for="Name" class="form-control" placeholder="أدخل اسم الأجازة" />
+                        <span asp-validation-for="Name" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-5">
+                        <label asp-for="HolidayDate" class="form-label fw-semibold">تاريخ الأجازة</label>
+                        <input asp-for="HolidayDate" type="date" class="form-control" />
+                        <span asp-validation-for="HolidayDate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100 fw-semibold">
+                            <i class="bi bi-plus-circle me-1"></i> إضافة
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- جدول عرض الإجازات -->
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped align-middle mb-0 text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">الاسم</th>
+                            <th scope="col">التاريخ</th>
+                            <th scope="col" style="width: 150px;">العمليات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.ExistingHolidays != null && Model.ExistingHolidays.Any())
+                        {
+                            foreach (var item in Model.ExistingHolidays)
+                            {
+                                <tr>
+                                    <td class="fw-semibold text-start ps-4">@item.Name</td>
+                                    <td>@item.HolidayDate.ToString("yyyy/MM/dd dddd", new System.Globalization.CultureInfo("ar-EG"))</td>
+                                    <td>
+                                        <!-- زر فتح الـ Modal للتعديل -->
+                                        <button type="button"
+                                                class="btn btn-outline-warning btn-sm rounded-circle edit-btn"
+                                                title="تعديل"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#editHolidayModal"
+                                                data-id="@item.Id"
+                                                data-name="@item.Name"
+                                                data-date="@item.HolidayDate.ToString("yyyy-MM-dd")">
+                                            <i class="bi bi-pencil"></i>
+                                        </button>
+
+                                        <!-- زر الحذف -->
+                                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline" onsubmit="return confirm('هل أنت تأكد من حذف هذه الإجازة؟');">
+                                            <button type="submit" class="btn btn-outline-danger btn-sm rounded-circle" title="حذف">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="3" class="text-muted py-4">لا توجد أجازات رسمية مسجلة حالياً.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal تعديل الإجازة -->
+<div class="modal fade" id="editHolidayModal" tabindex="-1" aria-labelledby="editHolidayModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-warning text-dark">
+                <h5 class="modal-title fw-bold" id="editHolidayModalLabel"><i class="bi bi-pencil-square me-2"></i>تعديل الأجازة</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="Create" method="post">
+                <div class="modal-body">
+                    <!-- حقل مخفي لحفظ ID الإجازة -->
+                    <input type="hidden" id="edit-id" name="Id" />
+
+                    <div class="mb-3">
+                        <label for="edit-name" class="form-label fw-semibold">اسم الأجازة</label>
+                        <input type="text" id="edit-name" name="Name" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="edit-date" class="form-label fw-semibold">تاريخ الإجازة</label>
+                        <input type="date" id="edit-date" name="HolidayDate" class="form-control" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <button type="submit" class="btn btn-warning fw-semibold">حفظ التغييرات</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const editButtons = document.querySelectorAll(".edit-btn");
+            editButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const id = this.getAttribute("data-id");
+                    const name = this.getAttribute("data-name");
+                    const date = this.getAttribute("data-date");
+
+                    document.getElementById("edit-id").value = id;
+                    document.getElementById("edit-name").value = name;
+                    document.getElementById("edit-date").value = date;
+                });
+            });
+        });
+    </script>
+}

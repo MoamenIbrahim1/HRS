@@ -1,0 +1,17 @@
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.DAL.deps.json
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.DAL.runtimeconfig.json
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.DAL.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.DAL.pdb
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.Core.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\bin\Debug\net9.0\HumanResouresMangementSystem.Core.pdb
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.AssemblyInfo.cs
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanRes.56423E72.Up2Date
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\refint\HumanResouresMangementSystem.DAL.dll
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.pdb
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\HumanResouresMangementSystem.DAL.genruntimeconfig.cache
+C:\Users\ascom\source\repos\HumanResouresMangementSystem\HumanResouresMangementSystem.DAL\obj\Debug\net9.0\ref\HumanResouresMangementSystem.DAL.dll

@@ -1,0 +1,251 @@
+﻿@model HumanResouresMangementSystem.Core.Dto.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "إدارة الموظفين";
+    var employeesList = ViewBag.Employees as List<HumanResouresMangementSystem.Core.Models.Employee>;
+    bool hasErrors = !ViewData.ModelState.IsValid;
+}
+
+<div class="container-fluid py-3" dir="rtl">
+
+    <!-- إشعار النجاح عند الحفظ -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <h2 class="text-center fw-bold mb-4">الموظفين</h2>
+
+    <form asp-action="Create" method="post" id="employeeForm">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <div class="row g-4">
+            <!-- البيانات الأساسية -->
+            <div class="col-md-6">
+                <div class="card shadow-sm border">
+                    <div class="card-header bg-light fw-bold text-center">البيانات الأساسية</div>
+                    <div class="card-body">
+
+                        <div class="mb-3 row">
+                            <label asp-for="Name" class="col-sm-4 col-form-label text-start">اسم الموظف</label>
+                            <div class="col-sm-8">
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="Address" class="col-sm-4 col-form-label text-start">العنوان</label>
+                            <div class="col-sm-8">
+                                <input asp-for="Address" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="Phone" class="col-sm-4 col-form-label text-start">رقم التليفون</label>
+                            <div class="col-sm-8">
+                                <input asp-for="Phone" class="form-control" maxlength="11" />
+                                <span asp-validation-for="Phone" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="Gender" class="col-sm-4 col-form-label text-start">النوع</label>
+                            <div class="col-sm-8">
+                                <select asp-for="Gender" class="form-select">
+                                    <option value="">اختر</option>
+                                    <option value="ذكر">ذكر</option>
+                                    <option value="أنثى">أنثى</option>
+                                </select>
+                                <span asp-validation-for="Gender" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="Nationality" class="col-sm-4 col-form-label text-start">الجنسية</label>
+                            <div class="col-sm-8">
+                                <input asp-for="Nationality" class="form-control" />
+                                <span asp-validation-for="Nationality" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="BirthDate" class="col-sm-4 col-form-label text-start">تاريخ الميلاد</label>
+                            <div class="col-sm-8">
+                                <input asp-for="BirthDate" type="date" class="form-control" />
+                                <span asp-validation-for="BirthDate" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="NationalId" class="col-sm-4 col-form-label text-start">الرقم القومي</label>
+                            <div class="col-sm-8">
+                                <input asp-for="NationalId" class="form-control" />
+                                <span asp-validation-for="NationalId" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- بيانات العمل -->
+            <div class="col-md-6">
+                <div class="card shadow-sm border h-100">
+                    <div class="card-header bg-light fw-bold text-center">بيانات العمل</div>
+                    <div class="card-body">
+
+                        <div class="mb-3 row">
+                            <label asp-for="ContractDate" class="col-sm-4 col-form-label text-start">تاريخ التعاقد</label>
+                            <div class="col-sm-8">
+                                <input asp-for="ContractDate" type="date" class="form-control" />
+                                <span asp-validation-for="ContractDate" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="Salary" class="col-sm-4 col-form-label text-start">الراتب</label>
+                            <div class="col-sm-8">
+                                <input asp-for="Salary" type="number" step="0.01" class="form-control" />
+                                <span asp-validation-for="Salary" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="CheckInTime" class="col-sm-4 col-form-label text-start">موعد الحضور</label>
+                            <div class="col-sm-8">
+                                <input asp-for="CheckInTime" type="time" class="form-control" />
+                                <span asp-validation-for="CheckInTime" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label asp-for="CheckOutTime" class="col-sm-4 col-form-label text-start">موعد الانصراف</label>
+                            <div class="col-sm-8">
+                                <input asp-for="CheckOutTime" type="time" class="form-control" />
+                                <span asp-validation-for="CheckOutTime" class="text-danger small fw-bold"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- أزرار التحكم -->
+        <div class="d-flex justify-content-center gap-3 mt-4 mb-5">
+            <button type="submit" class="btn btn-outline-dark px-4">حفظ</button>
+            <a asp-action="Create" class="btn btn-outline-dark px-4">تعديل</a>
+            <button type="button" class="btn btn-outline-dark px-4" disabled>حذف</button>
+        </div>
+    </form>
+
+    <!-- جدول الموظفين -->
+    <div class="table-responsive bg-white shadow-sm border rounded">
+        <table class="table table-striped table-hover mb-0 text-center align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>#</th>
+                    <th>اسم الموظف</th>
+                    <th>العنوان</th>
+                    <th>رقم التليفون</th>
+                    <th>النوع</th>
+                    <th>القومي</th>
+                    <th>الراتب</th>
+                    <th>الإجراءات</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (employeesList != null && employeesList.Any())
+                {
+                    int index = 1;
+                    foreach (var emp in employeesList)
+                    {
+                        <tr>
+                            <td>@(index++)</td>
+                            <td>@emp.Name</td>
+                            <td>@emp.Address</td>
+                            <td>@emp.PhoneNumber</td>
+                            <td>@emp.Gender</td>
+                            <td>@emp.NationalId</td>
+                            <td>@(emp.WorkData?.Salary.ToString("N2") ?? "0.00")</td>
+                            <td>
+                                <a asp-action="Create" asp-route-id="@emp.Id" class="btn btn-sm btn-outline-primary">تعديل</a>
+                                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="setDeleteId(@emp.Id, '@emp.Name')">حذف</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Pop-up نافذة التنبيه عند خطأ البيانات (Validation Pop-up) -->
+<div class="modal fade" id="validationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-danger">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold">تنبيه في إدخال البيانات</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center py-4">
+                <i class="bi bi-exclamation-triangle-fill text-danger display-4 mb-3 d-block"></i>
+                <p class="fs-5 mb-0">يرجى استكمال البيانات المطلوبة وتصحيح الأخطاء الموضحة تحت الحقول.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-danger px-4" data-bs-dismiss="modal">حسناً</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pop-up نافذة تأكيد الحذف -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">تأكيد الحذف</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                هل أنت تأكد من رغبتك في حذف الموظف: <strong id="employeeNameToDelete"></strong>؟
+            </div>
+            <div class="modal-footer justify-content-center">
+                <form asp-action="Delete" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="deleteEmployeeId" name="id" value="" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <button type="submit" class="btn btn-danger">تأكيد الحذف</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // إظهار Pop-up التنبيه تلقائياً في حالة وجود أخطاء بعد الضغط على حفظ
+        @if (hasErrors)
+        {
+                <text>
+                    $(document).ready(function () {
+                        var myModal = new bootstrap.Modal(document.getElementById('validationModal'));
+                        myModal.show();
+                    });
+                </text>
+        }
+
+        function setDeleteId(id, name) {
+            document.getElementById('deleteEmployeeId').value = id;
+            document.getElementById('employeeNameToDelete').innerText = name;
+        }
+    </script>
+}
